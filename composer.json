@@ -1,0 +1,16 @@
+{
+    "name": "test/log-helper",
+    "type": "library",
+    "description": "日志组件库",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Test\\LogHelper\\": "src/"
+        }
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.3",
+        "monolog/monolog": "^1.22 | ^2.0"
+    }
+}
